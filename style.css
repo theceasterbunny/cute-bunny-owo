@@ -1,21 +1,52 @@
-.header{
-  background-color:red;
-  grid-area:header;
+body {
+  background: linear-gradient(to right, lightgreen, teal);
 }
 
-.nav{
-  background-color:blue;
-  grid-area:nav;
+.header{
+  grid-area:header;
+  background:rgba(0,0,0,.2);
 }
+
+.header h1{
+  mediumspringgreen; text-shadow: 2px 2px 5px navy;
+}
+
+nav {
+    grid-area:nav;
+    background:rgba(0,0,0,.2);
+    }
+
+nav ul {
+   padding:10px;
+   margin:0;
+}
+
+nav li {
+    padding:10px 10px;
+    list-style-type:none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+nav a {
+    text-decoration:none;
+    color:navy;
+}
+
+nav a:hover {
+    color:white;
+}
+
+
 
 .main{
-  background-color:yellow;
   grid-area:main;
+  background:rgba(0,0,0,.2);
 }
 
 .footer{
-  background-color:purple;
   grid-area:footer;
+  background:rgba(0,0,0,.2);
 }
 
 div{
