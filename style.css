@@ -25,6 +25,8 @@ div{
 .container1 { /*for index.html*/
   display: grid;
   grid-template-columns: auto 1fr;
+  grid-gap:.5e;
+  margin:1%
   grid-template-areas:
     "header header"
     "nav main"
