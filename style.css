@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to right, lightgreen, teal);
 }
 
-.header{
+header{
   grid-area:header;
   background:rgba(0,0,0,.2);
 }
@@ -37,21 +37,15 @@ nav a:hover {
     color:white;
 }
 
-
-
-.main{
+main{
   grid-area:main;
   background:rgba(0,0,0,.2);
 }
 
-.footer{
+footer{
   grid-area:footer;
   background:rgba(0,0,0,.2);
 }
-
-div{
- height:60px;
-} 
 
 .container1 { /*for index.html*/
   display: grid;
