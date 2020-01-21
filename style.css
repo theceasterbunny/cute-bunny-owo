@@ -8,7 +8,11 @@ header{
 }
 
 .header h1{
-  mediumspringgreen; text-shadow: 2px 2px 5px navy;
+  color: mediumspringgreen; text-shadow: 2px 2px 5px navy;
+}
+
+.header h3{
+  color: navy;
 }
 
 nav {
@@ -42,9 +46,21 @@ main{
   background:rgba(0,0,0,.2);
 }
 
+.main h2{
+  color: navy;
+}
+
+main p{
+ color:white;
+}
+
 footer{
   grid-area:footer;
   background:rgba(0,0,0,.2);
+}
+
+footer p{
+ color:white;
 }
 
 .container1 { /*for index.html*/
