@@ -9,11 +9,11 @@ header{
   background:rgba(0,0,0,.2);
 }
 
-.header h1{
+header h1{
   color: mediumspringgreen; text-shadow: 2px 2px 5px navy;
 }
 
-.header h3{
+header h3{
   color: navy;
 }
 
@@ -48,7 +48,7 @@ main{
   background:rgba(0,0,0,.2);
 }
 
-.main h2{
+main h2{
   color: navy;
 }
 
