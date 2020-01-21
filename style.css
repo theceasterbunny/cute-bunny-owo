@@ -2,6 +2,7 @@ body {
   background: linear-gradient(to right, lightgreen, teal);
   margin: 0;
   font-family: Verdana;
+  text-align: center;
 }
 
 header{
@@ -11,10 +12,12 @@ header{
 
 header h1{
   color: mediumspringgreen; text-shadow: 2px 2px 5px navy;
+  text-align: center;
 }
 
 header h3{
   color: navy;
+  text-align: center;
 }
 
 nav {
@@ -25,6 +28,7 @@ nav {
 nav ul {
    padding:10px;
    margin:0;
+   text-align: center;
 }
 
 nav li {
@@ -32,11 +36,13 @@ nav li {
     list-style-type:none;
     font-size:1.5em;
     font-weight:bold;
+    text-align: center;
 }
 
 nav a {
     text-decoration:none;
     color:navy;
+    
 }
 
 nav a:hover {
@@ -51,10 +57,12 @@ main{
 
 main h2{
   color: navy;
+  text-align: center;
 }
 
 main p{
  color:white;
+ text-align: center;
 }
 
 footer{
