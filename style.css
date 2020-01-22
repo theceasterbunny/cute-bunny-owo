@@ -13,14 +13,14 @@ header h1{
   color: mediumspringgreen; text-shadow: 2px 2px 5px navy;
   text-align: center;
   font-size: 5vw;
-  padding: 0;
+  padding: 0px;
 }
 
 header h3{
   color: navy;
   text-align: center;
   font-size: 2vw;
-  padding: 0;
+  padding: 0px;
 }
 
 nav {
@@ -70,6 +70,7 @@ main p{
 footer{
   grid-area:footer;
   background:rgba(0,0,0,.2);
+  text-align: center;
 }
 
 footer p{
