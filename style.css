@@ -187,6 +187,19 @@ figure img{
   padding-top:10px;
   text-align:center;
 }
+.video, .audio {
+    margin:0;
+    display: grid;  /*This needs to be set or it won't center*/
+    justify-content:space-around;
+}
+audio {
+ max-width: 100%;
+}
+video {
+  max-width:100%;
+  height:auto;
+}
+
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
   display: grid;
@@ -225,6 +238,17 @@ figure img{
     "nav"
     "main"
     "fig2"
+    "footer";
+    }
+.container4 { /*for destination.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
     "footer";
     }
 
@@ -290,6 +314,13 @@ figure img{
     "fig2 fig2"
     "footer footer"
   }
+.container4 { /*for destination.html*/
+  grid-template-columns:auto 1fr;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
 
 /* Below will change from hamburger menu to side navigation*/
   
@@ -351,5 +382,14 @@ figure img{
     "fig2 fig2"
     "footer footer"
     }
+    
+.container4 { /*for destination.html*/
+  grid-template-columns:auto 1fr;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
 
 	}
+	
