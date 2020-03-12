@@ -164,12 +164,30 @@ section{
   background:rgba(0,0,0,.2);
 }
 
+.div1{
+  grid-area: div1;
+
+  
+}
+
+.div2{
+  grid-area: div2;
+}
+
 .nestedgrid{
   display:grid;
   grid-template-columns:auto;
   grid-template-areas:
   "section"
   "fig1";
+}
+
+.nestedgrid2{
+  width:90%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "div1 div2";
 }
 
 
@@ -200,7 +218,53 @@ video {
   height:auto;
 }
 
+form{
+  background-color:darkseagreen;
+  width:90%;
+  margin:auto;
+  color:white;
+  padding:10px;
+}
+
+input {
+  margin: 1px 0 10px 0;
+}
+
+.call {
+    color:navy;
+    text-align:center;
+    font-size:2em;
+    background-color:darkseagreen;
+    width:60%;
+    padding: 5px 0 0 0;
+    margin:10px auto 0 auto;
+    cursor:pointer;
+    width:60%;
+}
+
+.phone{
+    color:darkseagreen;
+    background-color:navy;
+    padding:5px;
+    text-align:center;
+    font-size:.75em;
+}
+
+.button{
+  padding:5px;
+  background-color:navy;
+  color:lightseagreen;
+}
+
 /*---------------------------Mobile Layout Styles----------------------------*/
+.nestedgrid2{
+  width:90%;
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "div1"
+  "div2";
+}
 .container1 { /*for index.html*/
   display: grid;
   grid-template-columns:100%;
@@ -349,6 +413,15 @@ video {
   grid-template-areas:
   "section fig1";
 }
+
+.nestedgrid2{
+  width:90%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "div1 div2";
+}
+
 
 .container1 { /*for index.html*/
   grid-template-columns:auto 1fr 25%;
